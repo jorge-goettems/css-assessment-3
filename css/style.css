@@ -74,13 +74,13 @@ img{
         flex-direction: column;
         gap: 5px;
         padding: 3px 8px;
-        background-color:rgba(169, 169, 169, 0.705);
     }
 
     li a {
-    background-color: gray;
-    display: block;
-    padding: 3px 8px;
+        background-color: gray;
+        display: block;
+        padding: 3px;
+        text-align: left;
     }
 
     header > a {
