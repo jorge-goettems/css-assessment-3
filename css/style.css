@@ -63,4 +63,36 @@ img{
     width: 100%;
 }
 
+@media (min-width: 400px) and (max-width: 670px) {
 
+    section {
+        width: 90%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 3px 8px;
+        background-color:rgba(169, 169, 169, 0.705);
+    }
+
+    li a {
+    background-color: gray;
+    display: block;
+    padding: 3px 8px;
+    }
+
+    header > a {
+        font-size: 40px;
+    }
+
+    article {
+        flex-basis: 100%;
+    }
+
+    article p {
+        font-size: 22px;
+    }
+
+}
